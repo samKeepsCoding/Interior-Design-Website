@@ -7,6 +7,7 @@ import Daisy from '../../assets/unlimitedTouchPictures/Daisy-2.jpg'
 const AboutArticle = () => {
   return (
     <>
+    {/* THis worked */}
         <div className=' text-gray-500 text-xl font-medium flex flex-col md:flex-row justify-center md:justify-center md:space-x-8 py-8 md:pl-[1rem] leading-8'>
             <div className='flex flex-col p-8 max-w-3xl mt-8'>
                 <h1 className='text-4xl text-black font-semibold ml-4'>Our Story</h1>

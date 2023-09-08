@@ -1,7 +1,6 @@
 import React,{useState} from 'react';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
-import {motion} from 'framer-motion';
 
 
 
@@ -11,7 +10,7 @@ const CounterCard = ({countTo, caption}) => {
   return (
     <>
         <div 
-        className='flex flex-col justify-between text-center space-y-2 mt-4'>
+        className='flex flex-col justify-between text-center space-y-2 mt-4 text-black'>
             <ScrollTrigger onEnter={() => setCounterOn(true)} >
                 {counterOn && 
                 <div className='flex flex-row justify-center items-center'>

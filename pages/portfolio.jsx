@@ -1,8 +1,20 @@
 import React from 'react'
 import Navbar from '../components/Header/Navbar'
 import { PortfolioHeader, PortfolioGallery, Form, Footer } from '../components'
+import { client } from '../lib/client'
 
-const portfolio = () => {
+export async function getStaticProps() {
+    const profileImages = await client.fetch(`*[_type == "profileCard"]`)
+  
+    
+    return {
+      props: {
+        profileImages
+      }
+    }
+  }
+
+const portfolio = ({ profileImages }) => {
   return (
     <>
         <Navbar/>
@@ -12,7 +24,7 @@ const portfolio = () => {
         </section>
 
         <section>
-            <PortfolioGallery/>
+            <PortfolioGallery profileImages={profileImages}/>
         </section>
 
         <section>

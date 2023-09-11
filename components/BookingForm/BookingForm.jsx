@@ -60,16 +60,16 @@ const BoorkingForm = () => {
           <div className='w-full lg:w-1/2 text-lg font-medium text-gray-400 flex-col justify-start items-start py-3'>
             <div className=' text-lg font-medium text-black flex-col justify-start items-start  md:p-10'>
               
-              <form id='form' ref={form} onSubmit={sendEmail}>
-                <label htmlFor="">Name</label>
-                <div className='flex md:space-y-0 space-x-2 mb-3 mt-3'>
-                      <input className=' bg-gray-100 rounded-lg py-3 px-2 w-1/2' type="text" name="first_name" id="" placeholder='First*'required />
+              <form id='form' ref={form} onSubmit={sendEmail} className='text-gray-400'>
+                <label>Name</label>
+                <div className='flex md:space-y-0 space-x-1 mb-3 mt-3'>
+                      <input className=' bg-gray-100 rounded-lg py-3 px-2 w-1/2' type="text" name="first_name" id="" placeholder='First*' required />
                       <input  className=' bg-gray-100 rounded-lg py-3 px-2 w-1/2'type="text" name="last_name" id="" placeholder='Last*'required />
                 </div>
                 <label className='mt-10'>Phone</label>
                 <div className='flex justify-start items-center space-x-6 my-4 '>
 
-                  <input type="tel" maxLength={10} required name='phone_number' className='border bg-gray-100 p-3 rounded-lg'/>
+                  <input type="tel" placeholder='xxx-xxx-xxxx'maxLength={10} required name='phone_number' className='border bg-gray-100 p-3 rounded-lg'/>
                 </div>
 
                 <label htmlFor="">Email *</label>

@@ -33,8 +33,8 @@ const Testimonial = () => {
 
             <div className='absolute top-0 left-0 w-full bg-black h-full opacity-50'></div>
 
-            <MdChevronLeft color='white' size={50} className=' absolute hidden md:inline-block left-1/4 top-3/4 xl:top-1/2 cursor-pointer z-10' onClick={() => slideLeft()}/>
-            <MdChevronRight color='white' size={50} className='absolute hidden md:inline-block left-3/4 top-3/4 xl:top-1/2 cursor-pointer z-10' onClick={() => slideRight()}/>
+            {/* <MdChevronLeft color='white' size={50} className=' absolute hidden md:inline-block left-1/4 top-3/4 xl:top-1/2 cursor-pointer z-10' onClick={() => slideLeft()}/>
+            <MdChevronRight color='white' size={50} className='absolute hidden md:inline-block left-3/4 top-3/4 xl:top-1/2 cursor-pointer z-10' onClick={() => slideRight()}/> */}
 
 
             {/* Card Container */}
@@ -48,7 +48,7 @@ const Testimonial = () => {
                     <p className='md:text-xl leading-9'>From the moment I discussed my ideas with Daisy she has a real understanding of my design requirements, Daisy has transformed my home beautifully. I wouldn’t hesitate to recommend Daisy and truly 
                         appreciate her expertise. This was an enjoyable experience with an extreme successful outcome
                     </p>
-                    <div>
+                    <div className='flex flex-col items-center'>
                         <Image
                             src={sussane}
                             height={60}
@@ -70,7 +70,7 @@ const Testimonial = () => {
 
 
 
-                <div className='relative flex flex-col justify-center items-center min-w-full text-center space-y-6 px-4 py-6'>
+                {/* <div className='relative flex flex-col justify-center items-center min-w-full text-center space-y-6 px-4 py-6'>
                     <h1 className='text-3xl md:text-5xl font-bold'>Testimonial</h1>
                     <RiDoubleQuotesL size={70}/>
                     <p className='md:text-xl leading-9'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vel facilis, sed amet, nostrum ea eligendi ipsam odio, eaque praesentium eum
@@ -94,7 +94,7 @@ const Testimonial = () => {
                                 </div>
                             </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </>

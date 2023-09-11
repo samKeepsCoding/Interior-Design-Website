@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
-import Image from 'next/image'
-import {AiOutlineZoomIn} from 'react-icons/ai'
+import {AiOutlineZoomIn} from 'react-icons/ai';
+import { urlFor } from '../../lib/client';
 
-const PortfolioCard = ({image,handleModal, showModal,handleImage }) => {
+const PortfolioCard = ({image, handleModal, showModal, handleImage }) => {
 
     const [cardHover, setCardHover] = useState(false)
 
@@ -26,11 +26,12 @@ const PortfolioCard = ({image,handleModal, showModal,handleImage }) => {
             <AiOutlineZoomIn size={30}/>
         </div>
         }
-            <Image
-                src={image}
+            <img
+                src={urlFor(image.image.asset._ref)}
                 width={450}
                 height={450}
-                className='rounded-lg'
+                className='rounded-lg min-h-max'
+                alt='history'
             />
         </div>
     </>

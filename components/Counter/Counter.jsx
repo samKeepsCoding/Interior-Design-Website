@@ -12,7 +12,7 @@ const Counter = () => {
 
   return (
     <>
-        <div className='w-full p-10 flex items-center justify-center text-black'>
+        <div className='w-full p-10 flex items-center justify-center bg-white'>
             <ScrollTrigger onEnter={() => setShowCards(true)}>
             {showCards && 
                 <motion.div 

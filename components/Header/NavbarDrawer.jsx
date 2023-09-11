@@ -25,27 +25,27 @@ const NavbarDrawer = () => {
             className='top-0 left-0 bg-black h-screen w-full flex items-center justify-center flex-col md:hidden'>
                 <ul className="text-center relative top-50 ">
                     <li className="mx-4 my-10 md:my-0">
-                        <Link href='/'>
+                        <Link legacyBehavior href='/'>
                             <a href="#" className=" text-4xl  md:text-lg text-font-bold ">HOME</a>
                         </Link>
                     </li>
                     <li className="mx-4 my-10 md:my-0">
-                        <Link href='/about'>
+                        <Link legacyBehavior href='/about'>
                             <a  className=" text-4xl md:text-lg text-font-bold ">ABOUT</a>
                         </Link>
                     </li>
                     <li className="mx-4 my-10 md:my-0">
-                        <Link href='/services'>
+                        <Link legacyBehavior href='/services'>
                             <a className=" text-4xl md:text-lg text-font-bold ">SERVICES</a>
                         </Link>
                     </li>
                     <li className="mx-4 my-10 md:my-0">
-                        <Link href='/portfolio'>
+                        <Link legacyBehavior href='/portfolio'>
                             <a href="#" className=" text-4xl md:text-lg text-font-bold ">PORTFOLIO</a>
                         </Link>
                     </li>
                     <li className="mx-4 my-10 md:my-0">
-                        <Link href='/bookConsultation'>
+                        <Link legacyBehavior href='/bookConsultation'>
                              <a href="#" className=" text-4xl md:text-lg text-font-bold ">CONTACT</a>
                         </Link>
                     </li>

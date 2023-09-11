@@ -19,9 +19,9 @@ const About = () => {
         </section>
 
         {/* About Gallery */}
-        <section>
+        {/* <section>
             <AboutGallery/>
-        </section>
+        </section> */}
 
         {/* Form */}
         <section>

@@ -52,27 +52,27 @@ const Navbar = () => {
 
         <ul className="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-transparent w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
           <li className="mx-3 my-6 md:my-0">
-            <Link href='/'>
+            <Link legacyBehavior href='/'>
               <a className="text-sm lg:text-lg text-font-bold hover:text-orange-200 duration-500">HOME</a>
             </Link>
           </li>
           <li className="mx-3 my-6 md:my-0">
-            <Link href='/about'>
+            <Link legacyBehavior href='/about'>
               <a  className="text-sm lg:text-lg text-font-bold hover:text-orange-200 duration-500">ABOUT</a>
             </Link>
           </li>
           <li className="mx-3 my-6 md:my-0">
-            <Link href='/services'>
+            <Link legacyBehavior href='/services'>
               <a href="#" className="text-sm lg:text-lg text-font-bold hover:text-orange-200 duration-500">SERVICES</a>
             </Link>
           </li>
           <li className="mx-3 my-6 md:my-0">
-            <Link href='/portfolio'>
+            <Link legacyBehavior href='/portfolio'>
               <a href="#" className="text-sm lg:text-lg text-font-bold hover:text-orange-200 duration-500">PORTFOLIO</a>
             </Link>
           </li>
           <li className="mx-3 my-6 md:my-0">
-            <Link href='/bookConsultation'>
+            <Link legacyBehavior href='/bookConsultation'>
               <a href="#" className="text-sm lg:text-lg text-font-bold hover:text-orange-200 duration-500">CONTACT</a>
             </Link>
           </li>
@@ -83,9 +83,9 @@ const Navbar = () => {
             {/* <BsFacebook className='mx-2 hover:text-orange-200 duration-500 cursor-pointer' size={17} />
             <SiInstagram className='mx-2  hover:text-orange-200 duration-500 cursor-pointer' size={17} />
             <IoLogoSnapchat className='mx-2  hover:text-orange-200 duration-500 cursor-pointer' size={19} /> */}
-            <BsFacebook size={18} className='cursor-pointer hover:text-sky-700 duration-500'/>
+            {/* <BsFacebook size={18} className='cursor-pointer hover:text-sky-700 duration-500'/>
             <SiInstagram size={18} className='cursor-pointer hover:fill-[#8a3ab9] duration-500'/>
-            <IoLogoSnapchat size={18} className='cursor-pointer hover:fill-[#FFFC00] duration-500'/>
+            <IoLogoSnapchat size={18} className='cursor-pointer hover:fill-[#FFFC00] duration-500'/> */}
           
         </div>
         {drawerOpen==true ? (<NavbarDrawer drawerOpen={drawerOpen} setDrawerOpen={setDrawerOpen}/>) :(

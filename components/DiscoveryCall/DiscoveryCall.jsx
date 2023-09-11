@@ -13,13 +13,13 @@ const DiscoveryCall = () => {
             <div className='w-[70%] flex justify-center items-center z-10 md:px-7'>
 
                 <div className=' md:h-[500px] md:w-[400px] bg-cover mt-8 z-10 drop-shadow-lg  ' 
-                    // style={{backgroundImage: "url('https://unlimitedtouchbydesign.com/wp-content/uploads/2022/03/Daisy-2.jpg')"}}
                     >
                         <Image
                             src={apartment}
                             width={800}
                             height={1000}
                             className='rounded-lg'
+                            alt='Decorated apartment'
                         />
                 </div>
                 <div className='md:ml-[-250px] md:mt-[130px] '>
@@ -28,6 +28,7 @@ const DiscoveryCall = () => {
                         width={450}
                         height={500}
                         className='opacity-10 sm:max-w-[200px] rounded-lg'
+                        alt='Spiral Staircase'
                     />
                 </div>
             </div>

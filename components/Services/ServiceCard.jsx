@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Bedroom from '../../assets/Bedroom.webp'
 
 const ServiceCard = ({image, body, title}) => {
   return (
@@ -11,6 +10,7 @@ const ServiceCard = ({image, body, title}) => {
                 width={480}
                 src={image}
                 className='rounded-md'
+                alt='Service'
             />
             <h6 className='text-2xl font-semibold mt-3'>{title}</h6>
             <h6 className='text-md font-light italic mt-3'>{body}</h6>

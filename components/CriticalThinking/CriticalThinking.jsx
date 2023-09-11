@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import staircase from '../../assets/staircase0.jpg'
 import view from '../../assets/view.jpg'
 
 
@@ -32,6 +31,7 @@ const CriticalThinking = () => {
                         width={600}
                         height={500}
                         className='rounded-md shadow-xl'
+                        alt='Nice view'
                     />
                 </div>
             </div>

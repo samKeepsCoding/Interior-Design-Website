@@ -100,6 +100,7 @@ const Form = () => {
                 src={Logo}
                 height={600}
                 width={600}
+                alt='Logo'
                 />
             </div>
             <form className='flex flex-col space-y-2 justify-center mx-auto text-gray-400 pt-3' id='form' 

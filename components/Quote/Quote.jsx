@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import {bookConsultation} from '../../pages/bookConsultation'
 import {BsFillArrowRightCircleFill} from 'react-icons/bs'
 
 const Quote = () => {
@@ -12,7 +11,6 @@ const Quote = () => {
                 <div className='flex justify-center items-center cursor-pointer border-b-2'>
                     <a href="" className='text-lg font-bold text-[#9a827d]'>Get A Quote </a>
                     <BsFillArrowRightCircleFill size={15} color={'#9a827d'} className='ml-2 mt-1'/>
-
                 </div>
             </Link>
         </div>

@@ -26,6 +26,7 @@ const Packages = () => {
                         width={450}
                         height={500}
                         className='opacity-20 md:opacity-10 sm:max-w-[200px] rounded-lg'
+                        alt='A nice view'
                     />
                 </div>
             </div>

@@ -54,6 +54,7 @@ const Testimonial = () => {
                             height={60}
                             width={60}
                             className='rounded-full'
+                            alt='Happy customer'
                         />
                             <div>
                                 <p>Sussane Smith</p>

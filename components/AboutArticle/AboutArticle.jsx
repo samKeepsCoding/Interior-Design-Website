@@ -32,6 +32,7 @@ const AboutArticle = () => {
                         src={Certificate}
                         width={200}
                         height={200}
+                        alt='Proof of certification from Ultimat Academy'
                         />
                     </button>
                         <p className='text-sm'>Certified Ultimate Decorator & ReDesigner™</p>
@@ -51,6 +52,7 @@ const AboutArticle = () => {
                             width={600}
                             height={600}
                             className='rounded-lg'
+                            alt='Founder Daisy Harris'
                         />
                 </div>
                 <div className='ml-[-280px] md:ml-[-225px] md:mt-[130px]   '>
@@ -58,12 +60,11 @@ const AboutArticle = () => {
                         src={White}
                         width={550}
                         height={600}
-                        className='opacity-10 sm:max-w-[200px] '
+                        className='opacity-10 sm:max-w-[200px]'
+                        alt='Study space'
                     />
                 </div>
-               
             </div>
-
         </div>
     </>
   )

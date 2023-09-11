@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import livingRoom2 from '../../assets/livingRoom2.jpg'
 import homeIcon from '../../assets/homeIcon.png'
 
 const BoldApproach = () => {
@@ -12,6 +11,7 @@ const BoldApproach = () => {
                 <Image
                     src={homeIcon}
                     className='rounded-md'
+                    alt='Home'
                 />
                 <h1 className='text-4xl font-bold my-8 ml-4'>The Bold Approach</h1>
             </div>

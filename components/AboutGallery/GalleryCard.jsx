@@ -3,7 +3,7 @@ import  livingRoom2 from '../../assets/livingRoom2.jpg'
 import Image from 'next/image'
 import {AiOutlineZoomIn} from 'react-icons/ai'
 
-const GalleryCard = ({zoom, handleZoom, pic, id, handleImage}) => {
+const GalleryCard = ({handleZoom, pic, id, handleImage}) => {
 
     const [cardEffect, setCardEffect] = useState(false)
     
@@ -30,6 +30,7 @@ const GalleryCard = ({zoom, handleZoom, pic, id, handleImage}) => {
                 height={300}
                className='rounded-lg'
                id={id}
+                alt='Furniture'
                
             />
             

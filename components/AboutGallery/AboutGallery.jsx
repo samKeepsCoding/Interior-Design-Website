@@ -91,6 +91,7 @@ const AboutGallery = () => {
                                     className='rounded-lg'
                                     loading='lazy'
                                     onClick={()=> handleZoomImage()}
+                                    alt='Enlarge Image'
                                 />
                             </motion.div>
                         </div>

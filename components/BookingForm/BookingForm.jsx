@@ -10,7 +10,7 @@ import {RiCloseFill} from 'react-icons/ri'
 
 
 
-const BoorkingForm = () => {
+const BookingForm = () => {
   const [emailResults, setEmailResults] = useState(null)
   const [sentAlert, setSentAlert] = useState(false)
   
@@ -117,4 +117,4 @@ const BoorkingForm = () => {
   )
 }
 
-export default BoorkingForm
+export default BookingForm

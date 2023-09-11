@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import {AiOutlineZoomIn} from 'react-icons/ai';
 import { urlFor } from '../../lib/client';
+import Image from 'next/image';
 
 const PortfolioCard = ({image, handleModal, showModal, handleImage }) => {
 
@@ -26,8 +27,9 @@ const PortfolioCard = ({image, handleModal, showModal, handleImage }) => {
             <AiOutlineZoomIn size={30}/>
         </div>
         }
-            <img
-                src={urlFor(image.image.asset._ref)}
+            <Image
+                loading='lazy'
+                src={`${urlFor(image.image.asset._ref)}`}
                 width={450}
                 height={450}
                 className='rounded-lg min-h-max'

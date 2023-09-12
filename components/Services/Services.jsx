@@ -1,10 +1,9 @@
 import React,{useState} from 'react'
-import Image from 'next/image'
 import {motion} from 'framer-motion'
 import ScrollTrigger from 'react-scroll-trigger';
 import ServiceCard from './ServiceCard'
 import Bedroom from '../../assets/Bedroom.webp'
-import Furniture from '../../assets/Furniture.jpg'
+import Furniture from '../../assets/furniture.jpg'
 import LivingRoom from '../../assets/living-room.jpg'
 
 
